@@ -2,7 +2,7 @@ import React from 'react';
 import Navigation from './navigation';
 import BandeauTitre from './bandeauTitre';
 import Questionaire from './questionaire';
-import Article from './article';
+import AllArticles from './allArticles';
 import AllTestimonies from './allTemoignages';
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
       <Navigation />
       <BandeauTitre />
       <Questionaire />
-      <Article />
+      <AllArticles />
       <AllTestimonies />
     </>
   );
