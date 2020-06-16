@@ -3,6 +3,7 @@ import Navigation from './navigation';
 import BandeauTitre from './bandeauTitre';
 import Questionaire from './questionaire';
 import AllArticles from './allArticles';
+import Footer from './footer';
 import AllTestimonies from './allTemoignages';
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <BandeauTitre />
       <Questionaire />
       <AllArticles />
+      <Footer />
       <AllTestimonies />
     </>
   );
